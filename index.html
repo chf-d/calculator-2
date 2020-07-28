@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>מחשבון חיים פריש</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icon.jpg">
+</head>
+
+<body>
+
+  <div id="main">
+
+    <div id="screen">
+      <div id="res_show"></div>
+      <input type="text" id="input" placeholder="0" />
+    </div>
+
+    <div id="buttons">
+
+      <button class="CalcButtons c_ce_size" onclick="clear_all()">C</button>
+      <button class="CalcButtons c_ce_size" onclick="clear_input()">CE</button>
+      <button class="CalcButtons" onclick="oper_val('%')">%</button>
+      <button class="CalcButtons" id="special_size" onclick="oper_val('÷')">÷</button>
+      <button class="allButtons" onclick="but_val('1')">1</button>
+      <button class="allButtons" onclick="but_val('2')">2</button>
+      <button class="allButtons" onclick="but_val('3')">3</button>
+      <button class="CalcButtons" onclick="oper_val('x')">x</button>
+      <button class="allButtons" onclick="but_val('4')">4</button>
+      <button class="allButtons" onclick="but_val('5')">5</button>
+      <button class="allButtons" onclick="but_val('6')">6</button>
+      <button class="CalcButtons" onclick="oper_val('-')">-</button>
+      <button class="allButtons" onclick="but_val('7')">7</button>
+      <button class="allButtons" onclick="but_val('8')">8</button>
+      <button class="allButtons" onclick="but_val('9')">9</button>
+      <button class="CalcButtons" onclick="oper_val('+')">+</button>
+      <button class="allButtons c_ce_size" onclick="pos_neg('+/-')">+/-</button>
+      <button class="allButtons" onclick="but_val('0')">0</button>
+      <button class="allButtons" onclick="point()">.</button>
+      <button class="CalcButtons" id="Worth" onclick="calcula()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

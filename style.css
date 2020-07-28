@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  background-color: whitesmoke;
+  max-width: 272px;
+  padding: 20px 10px 10px 10px;
+  border: 0.5px solid black;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.288);
+}
+
+#screen{
+  margin-bottom: 12px;
+}
+
+#res_show {
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.671);
+  text-align: left;
+  padding-left: 5px;
+  font-family: arial;
+  display: grid;
+  align-items: center;
+  justify-content: right;
+}
+
+input {
+  padding: 5px;
+  width: 258px;
+  height: 35px;
+  border: 0px solid rgba(255, 255, 255, 0.671);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+}
+
+input::placeholder{
+  color: rgba(0, 0, 0, 0.294);
+}
+
+.allButtons {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0px;
+  margin: 1px;
+  width: 62px;
+  height: 45px;
+  border: 1px solid rgba(230, 227, 227, 0.74);
+  background-color: rgba(255, 255, 255, 0.432);
+  cursor: pointer;
+}
+
+.CalcButtons {
+  font-size: 20px;
+  padding: 0px;
+  margin: 1px;
+  width: 62px;
+  height: 45px;
+  border: 1px solid rgba(230, 227, 227, 0.671);
+  background-color: rgb(241, 238, 238);
+  cursor: pointer;
+}
+
+.c_ce_size{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#special_size{
+  font-size: 22px;
+}
+
+#Worth {
+  background-color: rgb(189, 185, 245);
+}
+
+.allButtons:hover,.CalcButtons:hover {
+  background-color: rgb(168, 164, 164);
+  transition: 0.5s;
+}
+
+.allButtons:active,.CalcButtons:active {
+  background-color: rgb(231, 211, 211);
+  transition: 0.1s;
+}
+
+#Worth:hover {
+  background-color: rgb(133, 114, 245);
+  transition: 0.5s;
+}
+
+#Worth:active {
+  background-color: rgb(189, 185, 245);
+  transition: 0.1s;
+}
